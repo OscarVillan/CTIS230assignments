@@ -1,5 +1,76 @@
 body {
-    background-color:bisque;
-    margin-right:15%;
-    margin-left:15%;
+    background-color: rgb(210, 198, 183);
+    font-family: "Candara", "Arial", "Calibri", "Optima", "Sans";
+}
+
+a {
+    color: rgb(180, 159, 3);
+    font-weight: bold;
+}
+
+a:hover {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+body#artpage {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+body#animalpage {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+body#homepage {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+table {
+    margin-left: 17vw;
+}
+
+a.return {
+    font-size: 1.75em;
+    margin-left: 28.5vw;
+}
+
+a.return:hover {
+    font-size: 2em;
+}
+
+h2,
+h4 {
+    font-family: "Book Antiqua", "Didot", "Palatino", "Serif";
+    font-size: 1.5em;
+    background-color: rgba(225, 191, 138, 0.749);
+    width: fit-content;
+
+}
+
+h2#OscarV {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+li.external {
+    margin-bottom: 14px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+ul ul li {
+    font-size: smaller;
+}
+
+span.arr {
+    color:rgb(204, 81, 81);
+    font-weight:bold;
+}
+p#background {
+    font-size:1.25em;
 }
