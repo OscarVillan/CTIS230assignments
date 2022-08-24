@@ -23,7 +23,7 @@ body#animalpage {
     margin-right: 15vw;
 }
 
-body#homepage {
+body.homepage {
     margin-left: 15vw;
     margin-right: 15vw;
 }
