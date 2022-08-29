@@ -17,7 +17,6 @@ body#artpage {
     margin-left: 15vw;
     margin-right: 15vw;
 }
-
 body#animalpage {
     margin-left: 15vw;
     margin-right: 15vw;
@@ -28,9 +27,6 @@ body.homepage {
     margin-right: 15vw;
 }
 
-table {
-    margin-left: 17vw;
-}
 
 a.return {
     font-size: 1.75em;
@@ -73,4 +69,63 @@ span.arr {
 }
 p#background {
     font-size:1.25em;
+}
+
+div.courses  {
+    display:flex;
+    /* border: 2px dotted green; */
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    width: 80%;
+}
+
+div.coursetaught {
+    /* border: 1px solid brown; */
+    margin-right: 10%;
+    margin-bottom: 3%;
+
+}
+div#animalphotolist {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+div.animalphoto {
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+div#artphotolist {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+div.artphoto {
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+/* media queries for responsive web design */
+/* Ask the browser to identify the properties of the media that
+the content is being displayed on and change the CSS rules accordingly */
+/* As long as the width of the viewport is less than 750px, implement any rules present in the media query */
+@media (max-width : 750px) {
+    body {
+        margin-left:3%;
+        margin-right:3%;
+    }
+}
+@media (min-width : 750px) {
+    body {
+        margin-left: 750px;
+        margin-right: 750px;
+    }
+}
+@media screen and (orientation: landscape) {
+    body {
+        background-color:rgb(225, 98, 98);
+    }
 }
