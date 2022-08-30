@@ -1,6 +1,7 @@
 body {
     background-color: rgb(210, 198, 183);
     font-family: "Candara", "Arial", "Calibri", "Optima", "Sans";
+    border: 2px dotted black;
 }
 
 a {
@@ -16,10 +17,12 @@ a:hover {
 body#artpage {
     margin-left: 15vw;
     margin-right: 15vw;
+    
 }
 body#animalpage {
     margin-left: 15vw;
     margin-right: 15vw;
+
 }
 
 body.homepage {
@@ -93,7 +96,6 @@ div#animalphotolist {
 }
 div.animalphoto {
     margin-top:10px;
-    margin-right:10px;
     margin-bottom:10px;
 }
 div#artphotolist {
@@ -104,9 +106,9 @@ div#artphotolist {
 }
 div.artphoto {
     margin-top:10px;
-    margin-right:10px;
     margin-bottom:10px;
 }
+
 
 /* media queries for responsive web design */
 /* Ask the browser to identify the properties of the media that
@@ -124,8 +126,8 @@ the content is being displayed on and change the CSS rules accordingly */
         margin-right: 750px;
     }
 }
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     body {
         background-color:rgb(225, 98, 98);
     }
-}
+} */
