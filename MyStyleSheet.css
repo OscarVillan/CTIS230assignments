@@ -75,13 +75,16 @@ span.arr {
 p#background {
     font-size:1.25em;
 }
+li.courselist {
+    list-style:none;
+}
 
 div.courses  {
     display:flex;
     /* border: 2px dotted green; */
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    width: 80%;
+    width: 50%;
 }
 
 div.coursetaught {
