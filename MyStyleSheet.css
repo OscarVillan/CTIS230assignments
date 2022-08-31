@@ -1,14 +1,16 @@
 body {
     background-color: rgb(210, 198, 183);
     font-family: "Candara", "Arial", "Calibri", "Optima", "Sans";
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 
 a {
     color: rgb(180, 159, 3);
     font-weight: bold;
 }
-
+img.photo {
+    padding-bottom:4.5vw;
+}
 a:hover {
     font-size: 1.3em;
     font-weight: bolder;
@@ -92,7 +94,7 @@ div#animalphotolist {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    padding-bottom:2vw;
 }
 div.animalphoto {
     margin-top:10px;
@@ -102,7 +104,7 @@ div#artphotolist {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    padding-bottom:2vw;
 }
 div.artphoto {
     margin-top:10px;
