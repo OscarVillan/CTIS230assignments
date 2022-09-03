@@ -31,3 +31,19 @@ function hideBigImage() {
     //just add dontshow class back to that div and the css rule for dontshow takes effect again.
     mybigimage.classList.add("dontshow")
 }
+
+staticimage = document.getElementById("staticview");
+gifimage = document.getElementById("gifview");
+
+staticimage.addEventListener("mouseover", showGIF);
+gifimage.addEventListener("mouseout", hideGIF);
+
+function showGIF() {
+    gifview.classList.remove("dontshow");
+    staticview.classList.add("dontshow");
+}
+
+function hideGIF() {
+    gifview.classList.add("dontshow");
+    staticview.classList.remove("dontshow");
+}

@@ -6,3 +6,6 @@ div#largeview {
 .dontshow {
     display:none;
 }
+div#card2:hover {
+    content: url(2_of_clubs.png);
+}

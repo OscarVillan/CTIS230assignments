@@ -15,6 +15,32 @@ a:hover {
     font-size: 1.3em;
     font-weight: bolder;
 }
+body#contactpage {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    text-align: center;
+}
+div#textlinediv {
+    padding-right:36vw;
+    padding-bottom:2vw;
+}
+
+div#contacttext {
+    margin-top:5%;
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:5%;
+    font-size: 1.5em;
+    color:black;
+    /* border:2px black solid; */
+    width:fit-content;
+    font-weight: bold;
+}
+textarea#textarea {
+    height: 30vw;
+    width: 50vw;
+    margin-bottom:5vw;
+}
 
 body#artpage {
     margin-left: 15vw;
@@ -35,7 +61,7 @@ body.homepage {
 
 a.return {
     font-size: 1.75em;
-    margin-left: 28.5vw;
+    text-align: center;
 }
 
 a.return:hover {
@@ -136,3 +162,21 @@ the content is being displayed on and change the CSS rules accordingly */
         background-color:rgb(225, 98, 98);
     }
 } */
+
+div#OscarV {
+    border-bottom: 4px solid transparent;
+    font-family:'Book Antiqua', Serif;
+    font-size:24pt;
+    transition-property: border-bottom;
+    transition-duration: 5s;
+    width:fit-content;
+
+}  
+div#OscarV:hover {
+    border-bottom: 4px solid black;
+}
+div#hiddentext {
+    color:rgb(210, 198, 183);
+    transition-property: color;
+    transition-duration: .5s;
+}
