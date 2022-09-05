@@ -68,14 +68,6 @@ a.return:hover {
     font-size: 2em;
 }
 
-h2,
-h4 {
-    font-family: "Book Antiqua", "Didot", "Palatino", "Serif";
-    font-size: 1.5em;
-    background-color: rgba(225, 191, 138, 0.749);
-    width: fit-content;
-
-}
 
 h2#OscarV {
     font-size: 2em;
@@ -139,8 +131,12 @@ div.artphoto {
     margin-top:10px;
     margin-bottom:10px;
 }
-
-
+div#number {
+    padding-bottom:10px;
+}
+div#email {
+    padding-top:10px;
+}
 /* media queries for responsive web design */
 /* Ask the browser to identify the properties of the media that
 the content is being displayed on and change the CSS rules accordingly */
@@ -157,11 +153,17 @@ the content is being displayed on and change the CSS rules accordingly */
         margin-right: 750px;
     }
 }
-/* @media screen and (orientation: landscape) {
-    body {
-        background-color:rgb(225, 98, 98);
+@media screen and (orientation: portrait) {
+    p#background {
+        font-size: 1em;
+        line-height: 110%;
+        
+        
     }
-} */
+} 
+p.p {
+    text-indent: 10%;
+}
 
 div#OscarV {
     border-bottom: 4px solid transparent;
@@ -179,4 +181,12 @@ div#hiddentext {
     color:rgb(210, 198, 183);
     transition-property: color;
     transition-duration: .5s;
+}
+div.h4 {
+    font-family: "Book Antiqua", "Didot", "Palatino", "Serif";
+    font-size: 1.5em;
+    background-color: rgba(225, 191, 138, 0.749);
+    width: fit-content;
+    font-weight:bold;
+
 }
